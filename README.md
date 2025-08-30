@@ -22,7 +22,7 @@ OpenAI Realtime APIのWebhookリクエストを受信し、音声通話を処理
 
 ```bash
 git clone <repository-url>
-cd SIP-Webhook
+cd realtimeapi-sip-webhook-server
 ```
 
 ### 2. 仮想環境の作成とアクティベート
