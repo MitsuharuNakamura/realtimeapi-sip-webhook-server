@@ -46,12 +46,7 @@ pip install -r requirements.txt
 
 ## 設定方法
 
-### 方法1: ハードコードされた認証情報を使用（main.py）
-
-`main.py`ファイル内に直接APIキーとWebhook Secretが記載されています。
-テスト環境での使用に適していますが、本番環境では推奨されません。
-
-### 方法2: 環境変数を使用（main_with_env.py）
+### 環境変数を使用（main_with_env.py）
 
 `.env`ファイルを使用して認証情報を管理します。
 
@@ -69,10 +64,8 @@ OPENAI_API_KEY=your_api_key_here
 ### 開発サーバーの起動
 
 ```bash
-# 方法1: ハードコードされた認証情報を使用
-python main.py
 
-# 方法2: 環境変数を使用（推奨）
+# 方法: 環境変数を使用（推奨）
 python main_with_env.py
 ```
 
