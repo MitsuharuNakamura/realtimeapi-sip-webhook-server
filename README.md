@@ -60,7 +60,6 @@ pip install -r requirements.txt
 ```env
 OPENAI_WEBHOOK_SECRET=your_webhook_secret_here
 OPENAI_API_KEY=your_api_key_here
-OPENAI_PROJ_ID=your_project_id_here
 ```
 
 2. `main_with_env.py`を使用して起動します。
@@ -90,7 +89,6 @@ POST http://localhost:8000/
 ```
 SIP-Webhook/
 ├── README.md           # このファイル
-├── main.py            # ハードコード版のアプリケーション
 ├── main_with_env.py   # 環境変数版のアプリケーション（日本語対応）
 ├── .env               # 環境変数ファイル（gitignoreに追加）
 ├── .gitignore         # Git除外設定ファイル
